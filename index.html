@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>Music Library</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Music Library</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="albums.html">Albums</a></li>
+                <li><a href="playlists.html">Playlists</a></li>
+                <li><a href="genres.html">Genres</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <input type="search" class="search-bar" placeholder="Search for music..." />
+        <div class="featured">
+            <h2>Featured Music</h2>
+            <div class="album-item">
+                <img src="album1.jpg" alt="Album 1" />
+                <p>Album 1 - Artist Name</p>
+                <a href="album-details.html">View Details</a>
+                <button class="play-button" data-track="track1.mp3">Play</button>
+            </div>
+            <!-- Repeat for other albums -->
+        </div>
+    </main>
+</body>
+</html>

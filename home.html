@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Library - Home</title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link to JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to the Music Library</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="albums.html">Albums</a></li>
+                <li><a href="playlists.html">Playlists</a></li>
+                <li><a href="genres.html">Genres</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Search Bar -->
+        <input type="search" class="search-bar" placeholder="Search for music..." />
+
+        <!-- Featured Section -->
+        <div class="featured">
+            <h2>Featured Music</h2>
+            <!-- Featured Album 1 -->
+            <div class="album-item">
+                <img src="album1.jpg" alt="Album 1">
+                <p>Album 1 - Artist Name</p>
+                <a href="album-details.html">View Details</a>
+                <button class="play-button" data-track="track1.mp3">Play</button>
+            </div>
+
+            <!-- Featured Album 2 -->
+            <div class="album-item">
+                <img src="album2.jpg" alt="Album 2">
+                <p>Album 2 - Another Artist</p>
+                <a href="album-details.html">View Details</a>
+                <button class="play-button" data-track="track2.mp3">Play</button>
+            </div>
+
+            <!-- Featured Album 3 -->
+            <div class="album-item">
+                <img src="album3.jpg" alt="Album 3">
+                <p>Album 3 - Popular Band</p>
+                <a href="album-details.html">View Details</a>
+                <button class="play-button" data-track="track3.mp3">Play</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
